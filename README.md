@@ -21,7 +21,7 @@ MNIST dataset is used with [python-mnist](https://pypi.org/project/python-mnist/
 
 Code was run on Macbook Pro 13" Core i7 3.1GHz CPU only)
 
-**Original model:**
+**Original model:**  
   Inference time (1000 runs): **4908ms**  
   Saved model size: **12992 bytes**  
   Accuracy: **98.2%**  
