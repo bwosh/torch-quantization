@@ -27,9 +27,9 @@ Code was run on Macbook Pro 13" Core i7 3.1GHz CPU only)
   Accuracy: **98.2%**  
 
 **Quantized model:**
-  Inference time (1000 runs): **2447ms** (50% of original time)
-  Saved model size: **5243 bytes** (40.4% of original size)
-  Accuracy: **95.7%**  (-2.5%)
+  Inference time (1000 runs): **2447ms** (50% of original time)  
+  Saved model size: **5243 bytes** (40.4% of original size)  
+  Accuracy: **95.7%**  (-2.5%)  
 
   # Discussion
 
