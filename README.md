@@ -23,10 +23,10 @@ Code was run on Macbook Pro 13" Core i7 3.1GHz CPU only)
 
 **Original model:**
   Inference time (1000 runs): **4908ms**  
-  Saved model size: **12992 bytes**
+  Saved model size: **12992 bytes**  
   Accuracy: **98.2%**  
 
-**Quantized model:**
+**Quantized model:**  
   Inference time (1000 runs): **2447ms** (50% of original time)  
   Saved model size: **5243 bytes** (40.4% of original size)  
   Accuracy: **95.7%**  (-2.5%)  
