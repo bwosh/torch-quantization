@@ -17,7 +17,7 @@ MNIST dataset is used with [python-mnist](https://pypi.org/project/python-mnist/
 
 **You can see the code here:**  
 - [Static quantization](pytorch_quantize.ipynb)
-- [Quantization-aware training](pytorch_quantize_training-awareipynb)
+- [Quantization-aware training](pytorch_quantize_training-aware.ipynb)
 
 # Results
 
