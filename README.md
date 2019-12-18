@@ -15,7 +15,9 @@ Model is build with:
 MNIST dataset is used with [python-mnist](https://pypi.org/project/python-mnist/) library.
 
 
-**You can see the code [here](pytorch_quantize.ipynb)**
+**You can see the code here:**  
+- [Static quantization](pytorch_quantize.ipynb)
+- [Quantization-aware training](pytorch_quantize_training-awareipynb)
 
 # Results
 
@@ -26,10 +28,16 @@ Code was run on Macbook Pro 13" Core i7 3.1GHz CPU only)
   Saved model size: **13595 bytes**  
   Accuracy on test: **96.5%**  
 
-**Quantized model:**  
+**Quantized model (static):**  
   Inference time (1000 runs): **2763ms** (52% of original time)  
   Saved model size: **5792 bytes** (42.6% of original size)  
   Accuracy on test : **95.0%**  (-1.5%)  
+
+**Quantization-aware training model:**  
+*Notice*: weights taken from original model results, then 'fine-tuned' for 5 epochs.  
+  Inference time (1000 runs): **2693ms**  (51% of original time)  
+  Saved model size: **6527 bytes** (48.0% of original size)  
+  Accuracy on test : **95.5%**  (-1.0% / -1.3% vs fineduned model) 
 
   # Discussion
   The model was pretty random so I would say the accuracy drop is acceptable.   
